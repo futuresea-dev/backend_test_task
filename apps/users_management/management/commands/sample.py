@@ -42,7 +42,7 @@ class Command(BaseCommand):
         admin_user = self.create_superuser(
             username="admin",
             password="1516",
-            email="mh@DenysVereshchak.com",
+            email="mh@Denysvereshchak.com",
             first_name="",
             last_name="",
             user_type="admin",
@@ -53,7 +53,7 @@ class Command(BaseCommand):
             password="1516",
             email="me.Denys10@gmail.com",
             first_name="Denys",
-            last_name="Vereshchak",
+            last_name="vereshchak",
             user_type="admin",
         )
 
